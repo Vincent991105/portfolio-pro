@@ -1,10 +1,6 @@
 import Header from "../components/Header"
 import { PROJECTS_DATA } from '../fakeDatabase/projectData';
 import ProjectCard from "../components/ProjectCard"
-import ProjectHighlight from "../components/ProjectHighlight";
-import SkillRadar from "../components/SkillRadar";
-import ProjectTimeline from "../components/ProjectTimeLine";
-import ProjectStats from "../components/ProjectStats";
 
 function Project() {
 
