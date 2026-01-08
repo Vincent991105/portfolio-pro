@@ -34,7 +34,7 @@ function About() {
                     speed={60} 
                     size={24} 
                     weight='font-bold' 
-                    color="text-[#747bff]"
+                    color="#747bff"
                     align="center"
                 />
                 
