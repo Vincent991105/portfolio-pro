@@ -9,8 +9,9 @@ export const PROJECTS_DATA = [
     工具: ["Figma", "Asana"],
     程式: "",
     描述: "策辦一場長達一年並管理100人的畢業展覽活動。",
-    圖片: "/images/project1.jpg", // 放在 public/images 下
-    連結: "https://github.com/yourname/project"
+    圖片: "/Doting.jpg", // 放在 public/images 下
+    連結: "https://www.instagram.com/dot__ing/",
+    狀態: true
   },
   {
     id: 2,
@@ -22,8 +23,9 @@ export const PROJECTS_DATA = [
     工具: ["Figma","Redmine","jenkins"],
     程式: "",
     描述: "為未來科技館重新改版展示每年獲獎隊伍資訊的平台。",
-    圖片: "/images/project2.jpg",
-    連結: "#"
+    圖片: "/futex.jpg",
+    連結: "https://www.futuretech.org.tw/futuretech/index.php",
+    狀態: true
   },
   {
     id: 3,
@@ -35,8 +37,9 @@ export const PROJECTS_DATA = [
     工具: ["Figma","Redmine","jenkins","github"],
     程式: "",
     描述: "為統一集團開發一款「電子商務平台」，讓消費者能夠同時擔任賣家及買家的角色。",
-    圖片: "/images/project3.jpg",
-    連結: "#"
+    圖片: "/iopenmall.png",
+    連結: "https://mall.iopenmall.tw/iopen/",
+    狀態: true
   },
   {
     id: 4,
@@ -48,8 +51,9 @@ export const PROJECTS_DATA = [
     工具: ["Figma", "Redmine","jenkins"],
     程式: "",
     描述: "主要提供官方平台的功能及後台資料上傳；同步提供集點活動及刮刮樂活動。",
-    圖片: "/images/project4.jpg",
-    連結: "#"
+    圖片: "/taoyuanfarm.png",
+    連結: "https://tyfarm.tycg.gov.tw/tyfarm/",
+    狀態: true
   },
   {
     id: 5,
@@ -62,7 +66,8 @@ export const PROJECTS_DATA = [
     程式: ["JS","CSS"],
     描述: "取得 2025精品獎、入圍 2025AI創新大賞；本平台針對加速規震動數據進行蒐集和演算，推測橋梁此刻的穩定程度。",
     圖片: "/images/project4.jpg",
-    連結: "#"
+    連結: "/TYbridge",
+    狀態: true
   },
   {
     id: 6,
@@ -75,7 +80,8 @@ export const PROJECTS_DATA = [
     程式: ["html","JS","CSS"],
     描述: "開發一個預測蛋製成率的平台；透過模型及蒐集到的場面數據推算出蛋的熟度。",
     圖片: "/images/project4.jpg",
-    連結: "#"
+    連結: "#",
+    狀態: true
   },
   {
     id: 7,
@@ -88,7 +94,8 @@ export const PROJECTS_DATA = [
     程式: ["JS","CSS"],
     描述: "為客戶開發一套橋梁資料管理系統；提供資料上傳和紀錄的功能。",
     圖片: "/images/project4.jpg",
-    連結: "#"
+    連結: "#",
+    狀態: true
   },
   {
     id: 8,
@@ -101,7 +108,8 @@ export const PROJECTS_DATA = [
     程式: ["JS","CSS"],
     描述: "針對航空降落任務安全相關的AI專案；提供即時影像及即時辨識功能。",
     圖片: "/images/project4.jpg",
-    連結: "#"
+    連結: "#",
+    狀態: true
   },
   {
     id: 9,
@@ -114,6 +122,7 @@ export const PROJECTS_DATA = [
     程式: ["JS","CSS"],
     描述: "針對打靶積分進行觀測相關的AI專案；提供即時影像及即時辨識功能。",
     圖片: "/images/project4.jpg",
-    連結: "#"
+    連結: "#",
+    狀態: false
   },
 ];

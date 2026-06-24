@@ -12,4 +12,7 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  server: {
+    host: true, // 保持你原本的設定 (允許外部 IP 訪問)
+  }
 })

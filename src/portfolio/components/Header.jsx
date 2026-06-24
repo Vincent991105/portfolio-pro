@@ -21,12 +21,12 @@ function Header() {
         Project | 專案
       </NavLink>
 
-      <NavLink 
+      {/* <NavLink 
         to="../storybook" 
         className={({ isActive }) => (isActive ? activeStyle : normalStyle)}
       >
         Storybook | 元件庫
-      </NavLink>
+      </NavLink> */}
 
       <NavLink 
         to="../contact" 

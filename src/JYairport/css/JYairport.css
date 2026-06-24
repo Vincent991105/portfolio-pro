@@ -1,0 +1,122 @@
+.cs-bg-unset{
+    background-color: unset;
+    padding: unset;
+    transition: unset;
+}
+
+.cs-bg-unset:hover {
+    border-color: unset;
+    border: unset;
+}
+
+/* 針對右側任務清單容器的捲軸樣式 */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px; /* 寬度設細一點更有科技感 */
+}
+
+/* 捲軸軌道 (Track) */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2); /* 軌道接近全黑 */
+  border-radius: 10px;
+}
+
+/* 捲軸拉條 (Thumb) */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  /* 使用你指定的主色調 #1A6B93，並加上 40% 的透明度 */
+  background: rgba(26, 107, 147, 0.4); 
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05); /* 淡淡的邊框增加精緻感 */
+  transition: all 0.3s ease;
+}
+
+/* 當滑鼠懸停在捲軸上時變亮 */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(26, 107, 147, 0.8); /* 變為更明顯的藍色 */
+  box-shadow: 0 0 8px rgba(26, 107, 147, 0.5); /* 增加微弱發光 */
+}
+
+/* 容器樣式 */
+.cyber-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #00FFFF;
+  font-family: 'monospace', sans-serif; /* 科技感字體 */
+}
+
+.cyber-form-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cyber-label {
+  text-align: right;
+  font-size: 14px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+/* 共通的輸入框與下拉選單樣式 */
+.cyber-input, .cyber-select {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  color: #00FFFF;
+  padding: 6px 12px;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 255, 255, 0.1);
+}
+
+/* Hover 狀態 */
+.cyber-input:hover, .cyber-select:hover {
+  border-color: #00FFFF;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+/* Focus 狀態 */
+.cyber-input:focus, .cyber-select:focus {
+  border-color: #00FFFF;
+  background-color: black;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+/* 下拉選單特別處理 */
+.cyber-select {
+  cursor: pointer;
+  min-width: 160px;
+  /* 為了自定義箭頭（可選） */
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #00FFFF 50%),
+                    linear-gradient(135deg, #00FFFF 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+                       calc(100% - 15px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+
+/* 下拉選單內的選項顏色 */
+.cyber-select option {
+  background-color: #111;
+  color: #00FFFF;
+}
+
+/* 針對 time 類型的 input 優化 */
+.cyber-input[type="time"] {
+  position: relative;
+  min-width: 120px;
+}
+
+/* 調整時鐘圖示顏色 (Webkit 瀏覽器) */
+.cyber-input::-webkit-calendar-picker-indicator {
+  /* 使用 filter 將預設圖示轉為青色 */
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(145deg) brightness(110%) contrast(119%);
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.cyber-input::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}

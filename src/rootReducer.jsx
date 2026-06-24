@@ -1,6 +1,8 @@
 import { combineReducers } from "redux";
+import bridgeReducer from "../src/TYbridge/store/bridgeSlice";
 
 const appReducer = combineReducers({
+  bridge: bridgeReducer,
 });
 
 const rootReducer = (state, action) => {
